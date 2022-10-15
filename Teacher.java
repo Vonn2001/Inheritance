@@ -1,5 +1,4 @@
 public class Teacher extends Subject {
-    //fields of parent class
     private String designation;
     String collegeName;
     String subjectName;
@@ -25,11 +24,11 @@ public class Teacher extends Subject {
         return subObj.subject;
     }
 
-    //method of parent class
+ 
     void does(){
         System.out.println("Teaching");
     }
-    //overloading
+    
     private void does(String strAction){
         this.strAction = strAction;
         System.out.println("Teaching - " + strAction);
